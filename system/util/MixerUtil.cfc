@@ -102,7 +102,7 @@ Description :
 	</cffunction>
 
 	<!--- methodProxy --->
-	<cffunction name="methodProxy" access="public" hint="a method proxy" returntype="any" output="false">
+	<cffunction name="methodProxy" access="public" hint="a method proxy" returntype="any" output="true">
 		<cfscript>
 			var methodName = getFunctionCalledName();
 
